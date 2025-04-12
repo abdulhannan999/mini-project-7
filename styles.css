@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+main {
+  min-height: 100vh;
+  background: linear-gradient(to bottom,rgba(255, 64, 50, 0.8), rgba(71, 17, 116, 0.9)
+  ),url('../images/background.jpg') no-repeat center/cover;
+  width: 100%;
+}
+
+header{
+    height: 300px;
+    width: 100%;
+}
+ 
+header nav {
+    width: 100%;
+    padding: 3rem;
+ 
+    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav img {
+    
+    width: 100px;
+  }
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+  
+  header .header-right i {
+    margin-right: 5px;
+    color: white;
+  }
+  
+
+.header-right span{
+    color: white;
+    font-size: 1rem;
+}
+
+
+section{
+   
+    width: 100%;
+    min-height: 400px;
+}
+section .wrapper{
+    display: flex;
+    align-items: start;
+ padding: 2rem;
+    justify-items: center;
+}
+section form {
+flex: 1;
+
+}
+section .text-container{
+    flex: 1;
+    
+    height: 400px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: left;
+    justify-items: left;
+
+}
+form .form-group{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.form-group label{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    display: block;
+}
+.form-group input,textarea {
+    width: 90%;
+  padding: 15px;
+  border: 0;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: 0;
+  resize: none;
+}
+.form-group .btn{
+    width: 90%;
+    height: 50px;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #ff4032;
+  color: white;
+}
+.text-container {
+    font-size: 18px;
+  
+  }
+  
+
+.text-container h1{
+    font-size: 50px;
+    margin: 50px 0 20px;
+    color: white;
+    line-height: 1.2;
+}
+.text-container p{
+    text-align: left;
+    color: white;
+}
